@@ -1,0 +1,49 @@
+
+#intro{
+    background-color: #222831;
+}
+.hero{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 50px;
+}
+.white-text{
+    color: #EEEEEE;
+}
+
+.image{
+    height: 220px;
+    width: 200px;
+    border-radius: 50%;
+    border-color: #EEEEEE;
+}
+
+.heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ntext{
+    font-family: sans-serif;
+}
+
+.edu{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #e7ebf1;
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 720px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
